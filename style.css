@@ -1,0 +1,31 @@
+
+
+
+
+/* BREAK for tablets landscape */
+@media screen and (max-width: 1200px) {
+  .logo-image {
+    width: ;
+  }
+
+}
+
+
+
+/* BREAK for tablets portrait */
+@media screen and (max-width: 900px) {
+  .logo-image {
+    width: 70%;
+  }
+
+}
+
+
+
+/* BREAK for phones */
+@media screen and (max-width: 600px) {
+  .logo-image {
+    width: 90%;
+  }
+
+}
