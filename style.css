@@ -5,11 +5,7 @@ body {
   background-color: #000411;
 }
 
-.hide {
-  display: none;
-}
-
-h1, h2 {
+h1 {
   font-family: 'Arvo', serif;
 }
 
@@ -61,7 +57,7 @@ nav {
   width: 25px;
 }
 
-h2 {
+h1 {
   margin-top: 0px;
 }
 
@@ -198,7 +194,7 @@ button {
     margin: 10px auto 20px
   }
 
-  h2 {
+  h1 {
     margin-top: 5px;
     margin-bottom: 5px;
   }
@@ -250,7 +246,7 @@ button {
   }
 
   #tourism {
-    height: 170px;
+    height: 165px;
   }
 
   p {
@@ -277,22 +273,14 @@ button {
 }
 
 @media screen and (max-width: 577px) {
-  /*nav {
-    height: 500px;
-  }*/
-
   #tourism {
-    height: 200px;
+    height:180px;
   }
 }
 
 @media screen and (max-width: 420px) {
-  /*nav {
-    height: 550px;
-  }*/
-
   #tourism {
-    height: 250px;
+    height: 230px;
   }
 
   #slideshow {
@@ -319,21 +307,13 @@ button {
 }
 
 @media screen and (max-width: 386px) {
-  /*nav {
-    height: 580px;
-  }*/
-
-  #tourism {
+#tourism {
     height: 260px;
   }
 }
 
 @media screen and (max-width: 353px) {
-  /*nav {
-    height: 600px;
-  }*/
-
-  #tourism {
+#tourism {
     height: 280px;
   }
 }
