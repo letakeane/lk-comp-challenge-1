@@ -1,12 +1,136 @@
+body {
+  display: flex;
+  font-family: 'Quicksand', sans-serif;
+  color: #ffffff;
+}
+
+header {
+  display: none;
+}
+
+h1, h2 {
+  font-family: 'Arvo', serif;
+}
+
+p {
+}
+
+nav {
+  border: 1px solid teal;
+  height: 100%;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tiles {
+  border: 1px solid teal;
+}
+
+.tile-contents {
+  width: 180px;
+  margin: auto;
+  text-align: center;
+}
+
+.wide {
+  height: 1;
+  flex-basis: 2;
+  padding: 20px;
+}
+
+.tile-contents-wide {
+  display: inline-block;
+  width: 300px;
+}
+
+.wide p {
+  text-align: left;
+}
+
+.icon {
+  width: 50px;
+}
+
+.mic {
+  width: 25px;
+}
+
+h2 {
+  margin-top: 0px
+}
+
+button {
+  font-family: 'Quicksand', sans-serif;
+  padding: 5px 10px;
+}
+
+button.community-announcements-icon {
+
+}
+
+.c-a {
+  background: url('images/bulletin.svg') no-repeat;
+}
+
+.weather {
+  background: url('images/weather.svg') no-repeat;
+}
+
+.square {
+  /*height: 33.333%;
+  width: 33.333%;*/
+  /*vertical-align: middle;
+  margin: auto;*/
+  height: 1;
+  flex-basis: 1;
+  padding: 20px;
+}
+
+.black {
+  background-color: #000411;
+}
+
+.plum {
+  background-color: #33032F;
+}
+
+.charcoal {
+  background-color: #414247;
+}
+
+.purple {
+  background-color: #531253;
+}
+
+.light-gray {
+  background-color: #7B7887;
+}
+
+#slideshow {
+  border: 1px solid teal;
+  height: 100%;
+  width: 40%;
+}
+
+.bullet {}
+
+#slideshow-indicator-container {}
+
+#slidwshow-arrows-container {}
+
+.arrow{}
+
+.arrow-left {}
+
+.arrow-right {}
 
 
 
 
 /* BREAK for tablets landscape */
 @media screen and (max-width: 1200px) {
-  .logo-image {
-    width: ;
-  }
+
 
 }
 
@@ -14,9 +138,7 @@
 
 /* BREAK for tablets portrait */
 @media screen and (max-width: 900px) {
-  .logo-image {
-    width: 70%;
-  }
+
 
 }
 
