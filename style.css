@@ -62,15 +62,18 @@ nav {
 }
 
 h2 {
-  margin-top: 0px
+  margin-top: 0px;
 }
 
 button {
   font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
   border: 2px solid #ffffff;
   background-color: transparent;
   color: white;
-  padding: 5px 10px;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .c-a {
@@ -121,7 +124,14 @@ button {
 
 #image-1 {
   height: 100vh;
-  width: 100%;
+  min-width: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: -9999px;
+  bottom: -9999px;
+  left: -9999px;
+  right: -9999px;
+  margin: auto;
 }
 
 #slideshow-indicator-container {
@@ -140,20 +150,23 @@ button {
 
 #slideshow-arrows-container {
   display: inline-block;
+  width: 100%;
   position: absolute;
   top: 48%;
 }
 
 .arrow{
-  width: 30px;
+  width: 40px;
 }
 
 .arrow-left {
-
+  float: left;
+  margin-left: 10px;
 }
 
 .arrow-right {
   float: right;
+  margin-right: 10px;
 }
 
 
@@ -161,18 +174,77 @@ button {
 
 
 
-/* BREAK for tablets */
-@media screen and (max-width: 1050px) {
-
-
-}
-
-
-
-/* BREAK for phones */
-@media screen and (max-width: 600px) {
-  .logo-image {
-    width: 90%;
+/* BREAK for tablets landscape */
+@media screen and (max-width: 1175px) {
+  nav {
+    width: 50%;
+    flex-direction: column;
   }
+
+  .tiles {
+    height: auto;
+    padding: 10px;
+  }
+
+  .wide {
+    height: 24%;
+    width: 100%;
+  }
+
+  .wide:after {
+    padding-bottom: 0%;
+  }
+
+  .tile-contents-wide {
+  padding: 5px;
+  }
+
+  .wide p {
+    margin: 10px auto 20px
+  }
+
+  h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  p {
+    margin: 0px auto 10px;
+  }
+
+  .square {
+    height: 8%;
+    width: 100%;
+  }
+
+  .square:after {
+    padding-bottom: 0%;
+  }
+
+  .tile-contents {
+    position: absolute;
+    padding-top: 5px;
+    padding-left: 0px;
+  }
+
+  .icon {
+    width: 20px;
+  }
+
+  .mic {
+    width: 15px;
+  }
+
+  #slideshow {
+    width: 50%;
+  }
+
+}
+
+
+
+/* BREAK for tablets portrait */
+@media screen and (max-width: 1000px) {
+
 
 }
