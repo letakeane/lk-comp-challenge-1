@@ -5,7 +5,7 @@ body {
   background-color: #000411;
 }
 
-header {
+.hide {
   display: none;
 }
 
@@ -127,11 +127,7 @@ button {
   min-width: 100%;
   overflow: hidden;
   position: absolute;
-  top: -9999px;
-  bottom: -9999px;
-  left: -9999px;
-  right: -9999px;
-  margin: auto;
+  object-fit: cover;
 }
 
 #slideshow-indicator-container {
@@ -182,12 +178,11 @@ button {
   }
 
   .tiles {
-    height: auto;
     padding: 10px;
   }
 
   .wide {
-    height: 24%;
+    height: 25%;
     width: 100%;
   }
 
@@ -213,7 +208,7 @@ button {
   }
 
   .square {
-    height: 8%;
+    height: 7.5%;
     width: 100%;
   }
 
@@ -244,7 +239,101 @@ button {
 
 
 /* BREAK for tablets portrait */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
+  body {
+    display: block;
+  }
 
+  nav {
+    width: 100%;
+    height: 470px;
+  }
 
+  #tourism {
+    height: 170px;
+  }
+
+  p {
+    margin-bottom: 0px;
+  }
+
+  .tiles {
+    height: 20px;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  .title-contents {
+    margin: 0px;
+    padding-bottom: 0px;
+  }
+
+  #slideshow {
+  width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 577px) {
+  nav {
+    height: 500px;
+  }
+
+  #tourism {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  nav {
+    height: 550px;
+  }
+
+  #tourism {
+    height: 250px;
+  }
+
+  #slideshow {
+    height: 600px;
+  }
+
+  #image-1 {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 387px) {
+  #desert-flower-bowling {
+    height: 40px;
+  }
+
+  #slideshow {
+    height: 400px;
+  }
+
+  #image-1 {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 386px) {
+  nav {
+    height: 580px;
+  }
+
+  #tourism {
+    height: 260px;
+  }
+}
+
+@media screen and (max-width: 353px) {
+  nav {
+    height: 600px;
+  }
+
+  #tourism {
+    height: 280px;
+  }
 }
