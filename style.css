@@ -246,7 +246,7 @@ button {
 
   nav {
     width: 100%;
-    height: 470px;
+    height: auto;
   }
 
   #tourism {
@@ -277,9 +277,9 @@ button {
 }
 
 @media screen and (max-width: 577px) {
-  nav {
+  /*nav {
     height: 500px;
-  }
+  }*/
 
   #tourism {
     height: 200px;
@@ -287,9 +287,9 @@ button {
 }
 
 @media screen and (max-width: 420px) {
-  nav {
+  /*nav {
     height: 550px;
-  }
+  }*/
 
   #tourism {
     height: 250px;
@@ -319,9 +319,9 @@ button {
 }
 
 @media screen and (max-width: 386px) {
-  nav {
+  /*nav {
     height: 580px;
-  }
+  }*/
 
   #tourism {
     height: 260px;
@@ -329,9 +329,9 @@ button {
 }
 
 @media screen and (max-width: 353px) {
-  nav {
+  /*nav {
     height: 600px;
-  }
+  }*/
 
   #tourism {
     height: 280px;
