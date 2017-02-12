@@ -17,10 +17,10 @@ Below are a series of my version, which I themed as a tourism website for Night 
 ------------
 
 #####Desktop view:
-![my version, desktop view](https://goo.gl/photos/65zKBLurudgWDchs7)
+![my version, desktop view](https://goo.gl/photos/RMHrkTGUJqWfHhES7)
 
 #####Tablet-ish views (landscape and portrait):
-![my version, tablet landscape view](https://goo.gl/photos/9erg2PnzkLkDWHkR7)
+![my version, tablet landscape view](https://goo.gl/photos/GATWxtGJ5S3yXK7y6)
 ![my version, tablet portrait view](https://goo.gl/photos/qUXsm7KFzoBy3snG6)
 
 #####Phone views:
